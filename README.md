@@ -44,11 +44,13 @@ default.
 ```
 docs/
     index.md                 # The documentation homepage.
+    changelog.md             # changelog, used to demonstrate custom layout
     events/                  # subdirectory that contains event pages
         .meta.yml            # metadata for event pages
         firstevent.md        # an example event page
 layouts/                     # directory for custom layouts and assets
     background_normal.png    # background image for 'normal' (not event)  pages
+    release.yml              # custom layout for the changelog.md page
 mkdocs.yml                   # The configuration file.
 overrides/                   # Theme overrides directory
     .icons/                  # directory for custom icons
