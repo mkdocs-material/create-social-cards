@@ -1,0 +1,22 @@
+site_name: Social Cards Template
+site_url: https://www.example.com
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    logo: logo-monochrome
+  
+
+plugins:
+  - search
+  - meta
+  - social:
+      cards_layout: default/variant
+      cards_layout_options:
+        background_image: layouts/background_normal.png
+        background_color: transparent
+      cards_layout_dir: layouts
+
+watch:
+  - layouts
